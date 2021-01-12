@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
 from classtools import AttrDisplay
-
+import guitools
+def GUI(self):
+ pass
 class Person(AttrDisplay):
  """
  Create and process person records
