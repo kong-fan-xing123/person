@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 from classtools import AttrDisplay
 
@@ -32,7 +32,7 @@ class Department:
   self.members = list(args)
  def addMember(self,person):
   self.members.append(person)
- def giveRaise(self,percent):
+ def giveRaises(self,percent):
   for person in self.members:
    person.giveRaise(percent)
  def showAll(self):
