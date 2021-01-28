@@ -48,7 +48,7 @@ example:
 dev=createGroup([foo,bob])
 dev.giveRaises(0.9)
  """
- atk=__Department()
+ atk=Department()
  atk.members=listOfPerson
  return atk
 
