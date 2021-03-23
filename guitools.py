@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
 import person
 
+""" GUI for the person """
+
+
+
+
+# with have GUI to remove the pass!!!!!!!!
+class GUI:
+  pass
 
 
 
 
 
-# if have the GUI then delete the pass
-pass
+class GUIError(Exception):
+  pass
+class Sucess(BaseException):
+  pass
