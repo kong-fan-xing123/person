@@ -6,7 +6,7 @@ import person
 
 
 
-# with have GUI to remove the pass!!!!!!!!
+# with have GUI to remove all pass!!!!!!!!
 class GUI:
   pass
 
