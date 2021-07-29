@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import person
-
+import tkinter
 """ GUI for the person """
 
 
@@ -14,7 +14,7 @@ class GUI:
 
 
 
-class GUIError(Exception):
+class ShowError(Exception):
   pass
 class Sucess(BaseException):
   pass
